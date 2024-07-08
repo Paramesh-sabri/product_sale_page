@@ -1,0 +1,59 @@
+.image1{
+    width: 170px;
+    height: 300px;
+}
+.image2{
+    width: 170px;
+    height: 300px;
+}
+.table{
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.one{
+    padding-right: 150px;
+}
+td{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 200;
+    color: rgb(61, 27, 3);
+    padding: 5px;
+    background-color: rgb(214, 203, 203);
+}
+.whole{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    background-color: rgb(235, 230, 230);
+}
+.total{
+    padding-bottom: 20px;
+    border: 2px solid;
+}
+button{
+    background-color: rgb(255, 0, 0); 
+    border-style: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font: weight 300px;
+    color: aliceblue;
+}
+button:hover{
+    background-color: darkgreen;
+    color: white;
+    scale: 90%;
+}
+button:active{
+    background-color: greenyellow;
+    color: black;
+}
+.image1:hover{
+    scale: 80%;
+}
+.image2:hover{
+    scale: 80%;
+}
